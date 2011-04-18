@@ -1,8 +1,7 @@
-; $Id: adaptivetheme_devtheme.info,v 1.2.4.26 2011/01/13 04:00:58 jmburnz Exp $
 
 ;----------// Theme Information
   name        = AT Devtheme
-  description = Starter devtheme for Adaptivetheme. Copy this devtheme to get started building your own Drupal theme. For help see our <b><a href="http://adaptivethemes.com/documentation/base-theme">documentation</a></b> and <b><a href="http://vimeo.com/channels/61157">video tutorials</a></b>. If you have a problem and need additional help please use the <b><a href="http://drupal.org/project/issues/adaptivetheme">issue queue</a></b>.
+  description = Starter subtheme for Adaptivetheme. Copy this subtheme to get started building your own Drupal theme. For help see our <b><a href="http://adaptivethemes.com/documentation/base-theme">documentation</a></b> and <b><a href="http://vimeo.com/channels/61157">video tutorials</a></b>. If you have a problem and need additional help please use the <b><a href="http://drupal.org/project/issues/adaptivetheme">issue queue</a></b>.
   core        = 7.x
   engine      = phptemplate
   screenshot  = screenshot.png
@@ -142,10 +141,3 @@
   settings[horizontal_login_block_enable]  = 'on'
   settings[style_enable_schemes]           = 'off'
   settings[style_schemes]                  = 'style-default.css'
-
-; Information added by drupal.org packaging script on 2011-01-13
-version = "7.x-1.0"
-core = "7.x"
-project = "adaptivetheme"
-datestamp = "1294913108"
-

@@ -1,5 +1,4 @@
 <?php
-// $Id: theme-settings.php,v 1.2.4.4 2010/12/18 06:35:00 jmburnz Exp $
 
 /**
  * USAGE:
@@ -33,7 +32,7 @@ function adaptivetheme_devtheme_form_system_theme_settings_alter(&$form, &$form_
       '#options' => array(
         'none' => t('None'),
         'style-default.css' => t('Default Style'),
-        // 'my-style.css' => t('My Style'), // Add your schemes, these MUST be placed in your devthemes /schemes directory!
+        // 'my-style.css' => t('My Style'), // Add your schemes, these MUST be placed in your subthemes /schemes directory!
       ),
     );
     $form['style']['style_enable_schemes'] = array(
